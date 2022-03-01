@@ -1,0 +1,509 @@
+.holder{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    width:10%;
+}
+.name-holder{
+display:flex;
+}
+p{
+    margin:0;
+    padding:0;
+}
+.name-holder p {
+    margin-right:.5em;
+}
+/* bracket generation */
+.bracket{
+    margin-top:6em;
+    font-size: 17px;
+    display:flex;
+    text-align: center;
+    padding-right:1000px;
+    margin-left: 500px;
+}
+.champRnd1{
+    display: flex;
+    flex-direction: column;
+}
+.champRnd1 .match{
+    border: 2px solid black;
+    width:12em;
+    margin-top:31.3px;
+}
+.champRnd1 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+
+
+.champRnd2{
+    display: flex;
+    flex-direction: column;
+}
+.champRnd2 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width:12em;
+    margin-bottom:71.5px;
+    position:relative;
+    top:3em;
+    height:75px;
+}
+.champRnd2 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.champRnd2 .match .bottom{
+    margin-top:15px;
+}
+.champRnd2 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+.champRnd3{
+    display: flex;
+    flex-direction: column;
+    margin-top:35px;
+}
+.champRnd3 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width:12em;
+    margin-bottom:158px;
+    position:relative;
+    top:3em;
+    height:140px; 
+}
+.champRnd3 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.champRnd3 .match .bottom{
+    margin-top:80px;
+}
+.champRnd3 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+.champRnd4{
+    display: flex;
+    flex-direction: column;
+    margin-top:108px;
+}
+.champRnd4 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width:12em;
+    margin-bottom:300px;
+    position:relative;
+    top:3em;
+    height:300px;
+}
+.champRnd4 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.champRnd4 .match .bottom{
+    margin-top:240px;
+}
+.champRnd4 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+.champRnd5{
+    display: flex;
+    flex-direction: column;
+    margin-top:248px;
+}
+.champRnd5 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width:12em;
+    margin-bottom:603px;
+    position:relative;
+    top:3em;
+    height:608px;
+}
+.champRnd5 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.champRnd5 .match .bottom{
+    margin-top:547px;
+}
+.champRnd5 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+.champRnd6{
+    display: flex;
+    flex-direction: column;
+    margin-top: 550px;
+    padding-right:300px;
+}
+.champRnd6 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width:12em;
+    margin-bottom:603px;
+    position:relative;
+    top:3em;
+    height:1208px;
+}
+.champRnd6 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.champRnd6 .match .bottom{
+    margin-top:1148px;
+}
+.champRnd6 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+.champRnd6 .match .place-score{
+    position: relative;
+    bottom: 650px;
+    left:205px;
+}
+.champRnd6 .match .placer{
+    position: relative;
+    bottom: 650px;
+    left:205px;
+    border-bottom: 2px solid black;
+}
+
+
+.consRnd1{
+    display: flex;
+    flex-direction: column;
+}
+.consRnd1 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width:12em;
+    margin-bottom:71.5px;
+    position:relative;
+    top:3em;
+    height:75px;
+}
+.consRnd1 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd1 .match .bottom{
+    margin-top:30px;
+}
+
+
+
+.consRnd2{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px;
+}
+.consRnd2 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width:12em;
+    margin-bottom:71.5px;
+    position:relative;
+    top:3em;
+    height:75px;
+}
+.consRnd2 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd2 .match .bottom{
+    margin-top:15px;
+}
+.consRnd2 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+.consRnd3{
+    display: flex;
+    flex-direction: column;
+    margin-top:77px;
+}
+.consRnd3 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width:12em;
+    margin-bottom:158px;
+    position:relative;
+    top:3em;
+    height:140px; 
+}
+.consRnd3 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd3 .match .bottom{
+    margin-top:80px;
+}
+.consRnd3 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+.consRnd4{
+    display: flex;
+    flex-direction: column;
+    margin-top:147px;
+}
+.consRnd4 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width:12em;
+    margin-bottom:158px;
+    position:relative;
+    top:3em;
+    height:140px; 
+}
+.consRnd4 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd4 .match .bottom{
+    margin-top:80px;
+}
+.consRnd4 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+.consRnd5{
+    display: flex;
+    flex-direction: column;
+    margin-top:220px;
+}
+.consRnd5 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width:12em;
+    margin-bottom:300px;
+    position:relative;
+    top:3em;
+    height:300px; 
+}
+.consRnd5 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd5 .match .bottom{
+    margin-top:240px;
+}
+.consRnd5 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+.consRnd6{
+    display: flex;
+    flex-direction: column;
+    margin-top:370px;
+}
+.consRnd6 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width:12em;
+    margin-bottom:300px;
+    position:relative;
+    top:3em;
+    height:300px; 
+}
+.consRnd6 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd6 .match .bottom{
+    margin-top:240px;
+}
+.consRnd6 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+
+.consRnd7{
+    display: flex;
+    flex-direction: column;
+    margin-top:520px;
+}
+.consRnd7 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width:12em;
+    margin-bottom:600px;
+    position:relative;
+    top:3em;
+    height:600px; 
+}
+.consRnd7 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd7 .match .bottom{
+    margin-top:540px;
+}
+.consRnd7 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+.consRnd8{
+    display: flex;
+    flex-direction: column;
+    margin-top:820px;
+}
+.consRnd8 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width:12em;
+    margin-bottom:600px;
+    position:relative;
+    top:3em;
+    height:600px; 
+}
+.consRnd8 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd8 .match .bottom{
+    margin-top:535px;
+}
+.consRnd8 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+
+.consRnd9{
+    display: flex;
+    flex-direction: column;
+    margin-top:1120px;
+}
+.consRnd9 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width:12em;
+    margin-bottom:600px;
+    position:relative;
+    top:3em;
+    height:1200px; 
+}
+.consRnd9 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd9 .match .bottom{
+    margin-top:1140px;
+}
+.consRnd9 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+.consRnd9 .match .place-score{
+    position: relative;
+    bottom: 650px;
+    left:-205px;
+}
+.consRnd9 .match .placer{
+    position: relative;
+    bottom: 650px;
+    left:-205px;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+.consRnd10{
+    display: flex;
+    flex-direction: column;
+    margin-top:1120px;
+}
+.consRnd10 .match{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width:12em;
+    margin-bottom:600px;
+    position:relative;
+    bottom:30em;
+    height:100px; 
+}
+.consRnd10 .match .top{
+    position: relative;
+    bottom:1.2em;
+}
+.consRnd10 .match .bottom{
+    margin-top:55px;
+}
+.consRnd10 .match .top-score{
+    position: relative;
+    bottom: 20px;
+}
+.consRnd10 .match .place-score{
+    position: relative;
+    bottom: 70px;
+    left:205px;
+}
+.consRnd10 .match .placer{
+    position: relative;
+    bottom: 70px;
+    left:205px;
+    border-bottom: 2px solid black;
+}
